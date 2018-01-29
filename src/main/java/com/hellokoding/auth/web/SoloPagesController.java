@@ -29,7 +29,7 @@ public class SoloPagesController {
     public String soloThreadPage(@PathVariable Long id, Model model, Authentication auth) {
 
         model.addAttribute("thread",threadRepository.getOne(id));
-        return "thredid";
+        return "threadid";
     }
 
     @RequestMapping(value = "user/{id}", method = RequestMethod.GET)

@@ -45,7 +45,7 @@
             <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="home">Home</a></li>
+                <li class="active"><a href="home">Home</a></li>
             <li><a href="#Profile">${pageContext.request.userPrincipal.name}</a></li>
             <li><a href="add">Add</a></li>
             <li><a onclick="document.forms['logoutForm'].submit()">>Log out</a></li>

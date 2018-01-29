@@ -81,7 +81,9 @@
                 </div>
                 <div class="row">
                     <p><c:out value="${threads.content}"></c:out></p>
-                    <button class="btn btn-default btn-xs">Go to Thread!</button>
+                    <form action="http://localhost:8080/thread/${threads.id}">
+                        <input type="submit" value="Go to Thread" />
+                    </form>
                 </div>
             </div>
         </div>
