@@ -5,6 +5,11 @@ import com.hellokoding.auth.model.User;
 import com.hellokoding.auth.repository.ThreadRepository;
 import com.hellokoding.auth.service.ThreadService;
 import com.hellokoding.auth.validator.ThreadValidator;
+import org.jsoup.Connection;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Sort;
@@ -15,6 +20,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.io.IOException;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -63,7 +69,7 @@ public class ThreadController {
     }
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String home(Model model){
+    public String home(Model model) throws IOException{
         List<Thread> threads = threadRepository.findAll(sortById());
         model.addAttribute("threadList", threads);
         return "home";
