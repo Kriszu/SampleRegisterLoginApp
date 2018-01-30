@@ -1,17 +1,10 @@
-package com.hellokoding.auth.web;
+package com.kriszu.web;
 
-import com.hellokoding.auth.model.Thread;
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.repository.ThreadRepository;
-import com.hellokoding.auth.service.ThreadService;
-import com.hellokoding.auth.validator.ThreadValidator;
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import com.kriszu.model.Thread;
+import com.kriszu.repository.ThreadRepository;
+import com.kriszu.service.ThreadService;
+import com.kriszu.validator.ThreadValidator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.io.IOException;
 import java.security.Principal;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**

@@ -1,15 +1,10 @@
-package com.hellokoding.auth.service;
+package com.kriszu.service;
 
-import com.hellokoding.auth.model.Thread;
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.repository.ThreadRepository;
-import com.hellokoding.auth.repository.UserRepository;
+import com.kriszu.model.Thread;
+import com.kriszu.repository.ThreadRepository;
+import com.kriszu.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
-import java.util.Date;
-import java.util.Set;
 
 /**
  * Created by Kriszu on 24.10.2017.

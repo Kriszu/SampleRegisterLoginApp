@@ -1,4 +1,4 @@
-package com.hellokoding.auth.web;
+package com.kriszu.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.session.SessionRegistry;

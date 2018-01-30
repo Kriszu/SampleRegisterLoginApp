@@ -1,6 +1,7 @@
-package com.hellokoding.auth.model;
+package com.kriszu.model;
 
 import javax.persistence.*;
+import java.lang.*;
 import java.util.Set;
 
 @Entity

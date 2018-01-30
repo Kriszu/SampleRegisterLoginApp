@@ -1,7 +1,7 @@
-package com.hellokoding.auth.validator;
+package com.kriszu.validator;
 
-import com.hellokoding.auth.model.Thread;
-import com.hellokoding.auth.service.ThreadService;
+import com.kriszu.model.Thread;
+import com.kriszu.service.ThreadService;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;

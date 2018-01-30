@@ -1,4 +1,4 @@
-package com.hellokoding.auth;
+package com.kriszu;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;

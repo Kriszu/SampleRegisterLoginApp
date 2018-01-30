@@ -1,7 +1,7 @@
-package com.hellokoding.auth.repository;
+package com.kriszu.repository;
 
 
-import com.hellokoding.auth.model.User;
+import com.kriszu.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

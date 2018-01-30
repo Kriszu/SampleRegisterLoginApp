@@ -1,15 +1,13 @@
-/*
-package com.hellokoding.auth.service;
+
+package com.kriszu.service;
 
 import org.jsoup.Jsoup;
-import org.jsoup.helper.Validate;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 
 public class ParseServiceImpl implements ParseService {
@@ -28,4 +26,4 @@ public class ParseServiceImpl implements ParseService {
 
     }
 }
-*/
+

@@ -1,16 +1,13 @@
-package com.hellokoding.auth.service;
+package com.kriszu.service;
 
-import com.hellokoding.auth.model.Thread;
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.repository.RoleRepository;
-import com.hellokoding.auth.repository.UserRepository;
+import com.kriszu.model.User;
+import com.kriszu.repository.RoleRepository;
+import com.kriszu.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Set;
 
 @Service
 public class UserServiceImpl implements UserService {

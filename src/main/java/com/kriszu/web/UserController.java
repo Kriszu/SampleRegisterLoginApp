@@ -1,9 +1,9 @@
-package com.hellokoding.auth.web;
+package com.kriszu.web;
 
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.service.SecurityService;
-import com.hellokoding.auth.service.UserService;
-import com.hellokoding.auth.validator.UserValidator;
+import com.kriszu.model.User;
+import com.kriszu.service.SecurityService;
+import com.kriszu.service.UserService;
+import com.kriszu.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

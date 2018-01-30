@@ -4,8 +4,8 @@ package repositoryTest;
 import static org.junit.Assert.*;
 import static org.junit.matchers.JUnitMatchers.*;
 import static org.mockito.Mockito.*;
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.repository.UserRepository;
+import User;
+import UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -29,7 +29,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @EnableJpaRepositories(basePackages = {"com.hellokoding.auth.repository"})
-@SpringBootTest(classes=com.hellokoding.auth.repository.UserRepository.class)
+@SpringBootTest(classes=UserRepository.class)
 @Import(UserRepository.class)
 @ContextConfiguration(locations = {
         "classpath*:spring/applicationContext.xml",

@@ -1,5 +1,5 @@
 
-package com.hellokoding.auth.service;
+package com.kriszu.service;
 
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import java.io.IOException;
 @Service
 public interface ParseService {
 
-    void saveThreadsFromWp() throws IOException;
+    void saveThreadsFrom() throws IOException;
 }
 
