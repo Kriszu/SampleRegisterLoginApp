@@ -1,5 +1,7 @@
 package com.kriszu;
 
+import com.kriszu.repository.UserRepository;
+import com.kriszu.service.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -15,7 +17,9 @@ public class WebApplication extends SpringBootServletInitializer {
         return application.sources(WebApplication.class);
     }
 
+
     public static void main(String[] args) throws Exception {
         SpringApplication.run(WebApplication.class, args);
+
     }
 }
