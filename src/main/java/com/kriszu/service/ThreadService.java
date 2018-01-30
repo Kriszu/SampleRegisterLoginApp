@@ -10,5 +10,6 @@ public interface ThreadService {
 
     void save(Thread thread, String username);
     Thread findByTitle(String title);
+    void getSampleThreadByParsing();
 
 }

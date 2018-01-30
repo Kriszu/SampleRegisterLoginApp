@@ -34,7 +34,7 @@ public class ThreadValidator implements Validator {
         }*/
 
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "content", "NotEmpty");
-        if (thread.getContent().length() < 8 || thread.getContent().length() > 320) {
+        if (thread.getContent().length() < 8 || thread.getContent().length() > 3200) {
             errors.rejectValue("content", "Size.threadForm.content");
         }
 

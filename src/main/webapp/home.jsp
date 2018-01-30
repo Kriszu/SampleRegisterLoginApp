@@ -50,9 +50,14 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container"   >
     <div class="row">
-        <div class="col col-md-10 col-lg-10 col-sm-12">
+        <div class="col col-md-3 col-lg-3 col-sm-12" style="padding-top: 10px; padding-right: 5px;">
+            <ul>
+                <li><a href="http://www.geekweek.pl/aktualnosci/32175/autonomiczne-kapcie-od-nissana-same-parkuja">Autonomiczne kapcie od Nissana same "parkują" </a> </li>
+            </ul>
+        </div>
+        <div class="col col-md-9 col-lg-9 col-sm-12">
             <div class="row" style="padding-top: 10px;">
                 <h3>This is title of thread</h3>
             </div>
@@ -92,7 +97,6 @@
     </c:if>
 <%--
 <h1>This is home ${pageContext.request.userPrincipal.name}</h1>
---%>
 --%>
 
 <%--    <ul>

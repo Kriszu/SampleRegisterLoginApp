@@ -13,6 +13,7 @@ public class Thread {
     @Column(name = "thread_id")
     private Long id;
     private String title;
+    @Column(length = 3200)
     private String content;
     @Column(name = "date", nullable = true)
     private Date date;
